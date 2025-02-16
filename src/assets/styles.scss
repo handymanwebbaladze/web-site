@@ -1,0 +1,59 @@
+@import './base.css';
+
+* {
+  font-size: 20px;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  --border-radius-main: 20px;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.hidden.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.color-black {
+  color: black;
+}
+
+
+.color-white {
+  color: white;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@for $i from 1 through 100 {
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+}
+
+// .mb {
+//   &-10 {
+//     margin-bottom: 10px;
+//   }
+
+//   &-20 {
+//     margin-bottom: 20px;
+//   }
+// }
