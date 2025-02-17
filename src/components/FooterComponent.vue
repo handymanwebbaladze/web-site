@@ -8,9 +8,9 @@ import { contacts } from "@/utils/datasets";
     <div class="footer-content hidden" v-intersect="{ class: 'visible', options: { threshold: 0.3 }}">
       <div class="contacts">
         <h3>Contacts</h3>
-        <p v-if="contacts.phoneNumber">Phone: {{ contacts.phoneNumber }}</p>
+        <p v-if="contacts.phoneNumber">Phone: <a :href="`tel:+${contacts.phoneNumber}`">{{ contacts.phoneNumber }}</a></p>
         <!-- <p v-if="contacts.phoneNumber_2">Phone: {{ contacts.phoneNumber_2 }}</p> -->
-        <!-- <p v-if="contacts.email">Email: {{ contacts.email }}</p> -->
+        <p v-if="contacts.email">Email: <a :href="`mailto:${contacts.email}`">{{ contacts.email }}</a></p>
         <!-- <p>Andress: {{ contacts.city }}, {{ contacts.street }}, {{ contacts.country }}</p> -->
       </div>
       <!-- <div class="social-links">
@@ -68,6 +68,11 @@ import { contacts } from "@/utils/datasets";
       }
       p {
         margin: 5px 0;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
       }
       ul {
         list-style: none;
