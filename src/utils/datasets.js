@@ -1,5 +1,5 @@
 export const contacts = {
-  phoneNumber: "+1-877-000-0000",
+  phoneNumber: "(415) 510 0032",
   phoneNumber_2: "+1-877-000-2222",
   email: 'sample@gmail.com',
 

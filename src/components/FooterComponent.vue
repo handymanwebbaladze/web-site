@@ -9,11 +9,11 @@ import { contacts } from "@/utils/datasets";
       <div class="contacts">
         <h3>Contacts</h3>
         <p v-if="contacts.phoneNumber">Phone: {{ contacts.phoneNumber }}</p>
-        <p v-if="contacts.phoneNumber_2">Phone: {{ contacts.phoneNumber_2 }}</p>
-        <p v-if="contacts.email">Email: {{ contacts.email }}</p>
-        <p>Andress: {{ contacts.city }}, {{ contacts.street }}, {{ contacts.country }}</p>
+        <!-- <p v-if="contacts.phoneNumber_2">Phone: {{ contacts.phoneNumber_2 }}</p> -->
+        <!-- <p v-if="contacts.email">Email: {{ contacts.email }}</p> -->
+        <!-- <p>Andress: {{ contacts.city }}, {{ contacts.street }}, {{ contacts.country }}</p> -->
       </div>
-      <div class="social-links">
+      <!-- <div class="social-links">
         <h3>Social</h3>
         <ul>
           <li>
@@ -37,7 +37,7 @@ import { contacts } from "@/utils/datasets";
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>

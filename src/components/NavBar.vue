@@ -136,7 +136,14 @@ onUnmounted(() => {
 
     &-list {
       flex-direction: column;
-      background-image: linear-gradient(to top,rgb(56, 56, 56), rgb(177, 177, 177));
+      // background-image: linear-gradient(to top , rgb(56, 56, 56), rgb(177, 177, 177), rgb(56, 56, 56));
+      background-image: linear-gradient(
+        to top,
+        rgb(56, 56, 56) 0%,
+        rgb(177, 177, 177) 5%,
+        rgb(177, 177, 177) 100%,
+      );
+      box-shadow: 1px 5px 9px 1px rgb(76, 76, 76);
       position: absolute;
       left: 0;
       right: 0;
