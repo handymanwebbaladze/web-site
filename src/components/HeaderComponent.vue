@@ -40,7 +40,7 @@
       text-align: center;
     }
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
       h1 {
         font-size: 40px;
       }
