@@ -4,9 +4,7 @@
 
 <template>
   <header class="header">
-    <h1>Your reliable handyman</h1>
-    <h1>Zebur Baladze 
-    </h1>
+    <h1>Your reliable handyman <br> Zebur Baladze </h1>
     <p>Repairs, installation, furniture assembly, finishing works, renovation works – fast, high-quality, hassle-free.</p>
 
     <slot></slot>
@@ -33,6 +31,7 @@
     h1 {
       font-size: 60px;
       font-weight: bold;
+      text-align: center;
     }
 
     p {

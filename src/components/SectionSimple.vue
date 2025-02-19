@@ -82,22 +82,15 @@ import CaruselComponent from "@/components/CaruselComponent.vue";
 }
 
 .parallax {
-  // background-image: 
-  //   linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
-  //   url('/images/section_bg_2.jpg');
-  // background-image: 
-  // linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-  // image-set(
-  //   url('/images/section_bg_2.npg') 1x,
-  //   url('/images/section_bg_2@2x.npg') 2x
-  // );
   background-image: 
-  linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-  -webkit-image-set(
-    url('/images/section_bg_2.jpg') 1x,
-    url('/images/section_bg_2@2x.jpg') 2x
-  );
-  background-attachment: fixed;
+    linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+    url('/images/section_bg_2.jpg');
+    background-attachment: fixed;
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi) {
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/section_bg_2@2x.jpg');
+  }
 }
 
 .static {
