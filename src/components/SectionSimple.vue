@@ -85,12 +85,13 @@ import CaruselComponent from "@/components/CaruselComponent.vue";
   background-image: 
     linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
     url('/images/section_bg_2.jpg');
-    background-attachment: fixed;
+    
+  background-attachment: fixed;
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),
-        only screen and (min-resolution: 192dpi) {
-      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/section_bg_2@2x.jpg');
-  }
+  // @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  //       only screen and (min-resolution: 192dpi) {
+  //     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/section_bg_2@2x.jpg');
+  // }
 }
 
 .static {

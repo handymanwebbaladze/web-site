@@ -39,5 +39,15 @@
       font-size: 30px;
       text-align: center;
     }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
   }
 </style> 
