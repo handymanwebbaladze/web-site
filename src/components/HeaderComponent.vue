@@ -4,7 +4,9 @@
 
 <template>
   <header class="header">
-    <h1>Your reliable handyman!</h1>
+    <h1>Your reliable handyman</h1>
+    <h1>Zebur Baladze 
+    </h1>
     <p>Repairs, installation, furniture assembly, finishing works, renovation works – fast, high-quality, hassle-free.</p>
 
     <slot></slot>
@@ -23,7 +25,7 @@
     gap: 40px;
     padding: 40px;
     background-image: 
-      linear-gradient(to top, rgba(177, 177, 177, 0.181), rgba(172, 172, 172, 0.89)), 
+      linear-gradient(to top, rgba(177, 177, 177, 0.564), rgba(172, 172, 172, 0.89)), 
       url(https://the-handyman-company.com/wp-content/uploads/2024/06/imagen_2024-06-27_014935415.png);
     background-position: center;
     background-size: cover;
