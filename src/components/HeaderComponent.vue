@@ -4,6 +4,7 @@
 
 <template>
   <header class="header">
+    <img class="header-logo" src="/images/logo.png" alt="logo">
     <h1>Your reliable handyman <br> Zebur Baladze </h1>
     <p>Repairs, installation, furniture assembly, finishing works, renovation works – fast, high-quality, hassle-free.</p>
 
@@ -27,6 +28,10 @@
       url(https://the-handyman-company.com/wp-content/uploads/2024/06/imagen_2024-06-27_014935415.png);
     background-position: center;
     background-size: cover;
+
+    &-logo {
+      max-width: 300px;
+    }
 
     h1 {
       font-size: 60px;

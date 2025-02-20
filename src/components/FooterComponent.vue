@@ -6,38 +6,13 @@ import { contacts } from "@/utils/datasets";
 <template>
   <footer class="footer">
     <div class="footer-content hidden" v-intersect="{ class: 'visible', options: { threshold: 0.3 }}">
+      <img class="footer-logo" src="/images/logo.png" alt="logo">
+
       <div class="contacts">
         <h3>Contacts</h3>
         <p v-if="contacts.phoneNumber">Phone: <a :href="`tel:+${contacts.phoneNumber}`">{{ contacts.phoneNumber }}</a></p>
-        <!-- <p v-if="contacts.phoneNumber_2">Phone: {{ contacts.phoneNumber_2 }}</p> -->
         <p v-if="contacts.email">Email: <a :href="`mailto:${contacts.email}`">{{ contacts.email }}</a></p>
-        <!-- <p>Andress: {{ contacts.city }}, {{ contacts.street }}, {{ contacts.country }}</p> -->
       </div>
-      <!-- <div class="social-links">
-        <h3>Social</h3>
-        <ul>
-          <li>
-            <a v-if="contacts.facebook" :href="`https://facebook.com/${contacts.facebook}`" target="_blank" rel="noopener noreferrer">
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a v-if="contacts.twitter" :href="`https://twitter.com/${contacts.twitter}`" target="_blank" rel="noopener noreferrer">
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a v-if="contacts.instagram" :href="`https://instagram.com/${contacts.instagram}`" target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a v-if="contacts.linkedIn" :href="`https://linkedin.com/${contacts.linkedIn}`" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
-          </li>
-        </ul>
-      </div> -->
     </div>
   </footer>
 </template>
@@ -90,6 +65,10 @@ import { contacts } from "@/utils/datasets";
         }
       }
     }
+  }
+
+  &-logo {
+    max-width: 200px;
   }
 }
 </style> 
