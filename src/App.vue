@@ -15,7 +15,7 @@ import SectionSimple from './components/SectionSimple.vue';
 
   <HeaderComponent id="header" />
 
-  <SectionStatick id="section-1" img="/images/color-791622_1920.jpg">
+  <!-- <SectionStatick id="section-1" img="/images/color-791622_1920.jpg">
     <template v-slot:right>
       <h4>I am an expert in painting interiors and buildings with years of experience. I know all the details of surface preparation, selecting high-quality paints, and applying coatings that will last for years.</h4>
       <ul>
@@ -29,7 +29,7 @@ import SectionSimple from './components/SectionSimple.vue';
         <li>Decorative painting – marble effect, textures, artistic painting</li>
       </ul>
     </template>
-  </SectionStatick>
+  </SectionStatick> -->
 
   <SectionSimple/>
 
