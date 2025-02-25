@@ -36,7 +36,7 @@ import SectionSimple from './components/SectionSimple.vue';
   <SectionStatick img="/images/etimate_1.jpg">
     <template v-slot:right>
       <h4 class="text-bold">Ready for Change?</h4>
-      <p>If you’re planning a renovation or need consultation for upcoming projects – feel free to get in touch! I offer a free cost estimate so you can confidently move forward with your ideas.</p>
+      <p>If something is broken in your home – feel free to get in touch! I offer a free cost estimate so you can confidently move forward with your ideas.</p>
       <p>Call or text me – together, we’ll find the optimal solution for your project. Your comfort and quality of work are my top priorities.</p>
     </template>
   </SectionStatick>

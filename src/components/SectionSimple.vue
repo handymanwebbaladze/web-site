@@ -9,7 +9,6 @@ import CaruselComponent from "@/components/CaruselComponent.vue";
       <h2>I am a skilled handyman with years of experience in repairs and interior finishing. I started with small jobs, and now I help clients create comfort in their homes by delivering high-quality work without hassle.</h2>
       <ul>
         <li>10+ years in the repair industry – I know all the details of my craft</li>
-        <li>A wide range of services – from minor fixes to complex projects</li>
         <li>Work with high-quality materials and modern technologies</li>
         <li>Precision and responsibility – I leave only a flawless result behind</li>
         <li>Personalized approach – I find the best solution for each client</li>

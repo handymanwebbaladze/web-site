@@ -6,7 +6,7 @@
   <header class="header">
     <img class="header-logo" src="/images/logo.png" alt="logo">
     <h1>Your reliable handyman <br> Zebur Baladze </h1>
-    <p>Repairs, installation, furniture assembly, finishing works, renovation works – fast, high-quality, hassle-free.</p>
+    <p>Repairs, installation, furniture assembly, finishing works, high-quality, hassle-free.</p>
 
     <slot></slot>
   </header>
